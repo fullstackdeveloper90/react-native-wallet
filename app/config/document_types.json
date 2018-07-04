@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "document_category": "Proof of Identity",
+    "document_types": [
+      {
+        "id": 0,
+        "document_type": "government_id",
+        "description": "Government Issued ID",
+        "require": [{ "id": 0, "type": "front" }, { "id": 1, "type": "back" }]
+      },
+      {
+        "id": 1,
+        "document_type": "passport",
+        "description": "Passport",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 2,
+        "document_type": "drivers_license",
+        "description": "Drivers License",
+        "require": [{ "id": 0, "type": "front" }, { "id": 1, "type": "back" }]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "document_category": "Advanced Proof of Identity",
+    "document_types": [
+      {
+        "id": 0,
+        "document_type": "id_confirmation",
+        "description": "ID Confirmation Photo (Selfie)",
+        "require": [{ "id": 0, "type": "front" }]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "document_category": "Proof of Address",
+    "document_types": [
+      {
+        "id": 0,
+        "document_type": "utility_bill",
+        "description": "Utility Bill",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 1,
+        "document_type": "bank_statement",
+        "description": "Bank Statement",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 2,
+        "document_type": "lease_or_rental_agreement",
+        "description": "Lease Or Rental Agreement",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 3,
+        "document_type": "municipal_rate_and_taxes",
+        "description": "Municipal Rate and Taxes Invoice",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 4,
+        "document_type": "mortgage_statement",
+        "description": "Mortgage Statement",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 5,
+        "document_type": "telephone",
+        "description": "Telephone or Cellular Account",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 6,
+        "document_type": "insurance_policy",
+        "description": "Insurance Policy Document",
+        "require": [{ "id": 0, "type": "front" }]
+      },
+      {
+        "id": 7,
+        "document_type": "retail_store",
+        "description": "Statement of Account (Retail Store)",
+        "require": [{ "id": 0, "type": "front" }]
+      }
+    ]
+  }
+]

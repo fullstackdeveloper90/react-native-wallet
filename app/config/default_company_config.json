@@ -1,0 +1,140 @@
+{
+  "cards": [
+    {
+      "id": "0",
+      "title": "Card 1",
+      "description": "This is your custom text for card 1",
+      "image": "card1",
+      "dismiss": true
+    },
+    {
+      "id": "1",
+      "title": "Card 2",
+      "description": "This is your custom text for card 2",
+      "image": "card2",
+      "dismiss": false
+    },
+    {
+      "id": "2",
+      "title": "Card 3",
+      "description": "This is your custom text for card 3",
+      "image": "card3",
+      "dismiss": true,
+      "actionLabel": "CUSTOM DISMISS"
+    }
+  ],
+  "sliders": {
+    "landing": [
+      {
+        "id": "0",
+        "title": "Slide 1",
+        "description": "This is your custom text for slide 1",
+        "image": "card1"
+      },
+      {
+        "id": "1",
+        "title": "Slide 2",
+        "description": "This is your custom text for slide 2",
+        "image": "card2"
+      },
+      {
+        "id": "2",
+        "title": "Slide 3",
+        "description": "This is your custom text for slide 3",
+        "image": "card3"
+      }
+    ]
+  },
+  "screens": {
+    "login": [
+      {
+        "id": "0",
+        "title": "Login 1",
+        "description": "This is your custom text for login screen 1",
+        "image": "card1"
+      },
+      {
+        "id": "1",
+        "title": "Slide 2",
+        "description": "This is your custom text for login screen 2",
+        "image": "card2"
+      },
+      {
+        "id": "2",
+        "title": "Slide 3",
+        "description": "This is your custom text for login screen 3",
+        "image": "card3"
+      }
+    ]
+  },
+  "verification": {
+    "requirePersonal": true,
+    "requireAddress": false,
+    "requireMobile": true,
+    "requireEmail": true,
+    "requireDocumentID": true,
+    "requireDocumentAddress": true,
+    "requireDocumentAdvID": true
+  },
+
+  "auth": {
+    "identifier": "email",
+    "email": "required",
+    "mobile": "",
+    "terms": [
+      {
+        "id": 0,
+        "title": "Privacy Policy",
+        "link": "",
+        "description": "Click here to read more on the privacy policy"
+      },
+      {
+        "id": 1,
+        "title": "User Agreement",
+        "link": "",
+        "description": "Click here to read more on the user agreement"
+      }
+    ],
+    "first_name": true,
+    "last_name": true,
+    "country": false,
+    "pin": "optional",
+    "mfa": "optional"
+  },
+  "pin": {
+    "appLoad": true,
+    "security": false,
+    "send": true,
+    "updateDetails": false
+  },
+  "home": {
+    "header": "wallet",
+    "detail": [
+      {
+        "order": 0,
+        "type": "cards"
+      },
+      {
+        "order": 1,
+        "type": "transactions"
+      }
+    ]
+  },
+  "colors": {
+    "primary": "#4d4d4d",
+    "secondary": "#a6a6a6",
+    "tertiary": "#c4c4c4",
+    "focus": "#9797F0",
+
+    "primaryContrast": "#f3f3f3",
+    "secondaryContrast": "#2d2d2d",
+    "tertiaryContrast": "#000000",
+    "focusContrast": "#2d2d2d",
+
+    "warning": "#FC8755",
+    "error": "#f44336",
+    "success": "#4CAF50",
+    "positive": "#4CAF50",
+    "negative": "#f44336"
+  }
+}
